@@ -37,7 +37,7 @@ const User = ({ match }) => {
         Volver a la búsqueda
       </Link>
 
-      <div className='card grid-2'>
+      <div className='card col-12'>
         <div className='all-center'>
           <img
             src={avatar_url}

@@ -416,11 +416,17 @@ table th {
 		display: none;
 	}
 
-	.grid-2,
+	.userStyle {
+		display: 'grid';
+		grid-template-columns: 'repeat(2, 1fr)';
+		grid-gap: '1rem';
+	}
+
+	/* .grid-2,
 	.grid-3,
 	.grid-4 {
 		grid-template-columns: 1fr;
-	}
+	} */
 
 	/* Text Styles */
 	.x-large {
@@ -444,5 +450,10 @@ table th {
 	.navbar ul {
 		text-align: center;
 		justify-content: center;
+	}
+
+	/* img */
+	.round-img {
+		width: 90px !important;
 	}
 }
